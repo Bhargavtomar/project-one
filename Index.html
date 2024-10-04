@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  article{
+    background:linear-gradient(45deg,rgb(149, 196, 21),rgba(233, 75, 7, 0.928));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+section{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 40vw;
+    height: 35%;
+    margin: auto;
+    gap: 10px;
+    border-radius: 20px;
+    border-color: rgb(10, 9, 9);
+    background: -moz-linear-gradient(80deg,rgb(119, 87, 207),rgba(18, 3, 78, 0.913));
+    color: white;
+    position: absolute;
+    box-shadow: 0 0  3em;
+    /* box-shadow: chartreuse */
+    
+    }
+    h2{
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(238, 244, 240);
+        margin-top: -30%;
+        font-size: 80px;
+        box-shadow: 0 0 8em; 
+    }
+#hours,#mins,#seconds{
+    font-size: 100px
+}
+span{
+    font-size: 50px;
+}
+
+
+    </style>
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+</head>
+<body>
+    <article>
+        <h2>Digital Clock</h2>
+        <section>
+            <div id="hours">00</div><span>:</span>
+            <div id="mins">00</div><span>:</span>
+            <div id="seconds">00</div>
+        </section>
+    </article>
+
+    <script src="/Index.js"></script>
+</body>
+</html>
